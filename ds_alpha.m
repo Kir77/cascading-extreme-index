@@ -1,6 +1,6 @@
 % variables t rh
-vt=ds_alpha(t);
-vrh=ds_alpha(rh);
+vt=ds_v(t);
+vrh=ds_v(rh);
 len=size(t,3);
 for i=1:len
     total=length(vt{i});
